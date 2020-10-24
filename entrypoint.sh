@@ -1,9 +1,9 @@
 #!/bin/sh -l
 
-composer install --prefer-dist
+#composer install --prefer-dist
 
-cp .env.example .env
+cp .env.testing .env
 
-php artisan key:generate
+#php artisan key:generate
 
 php vendor/bin/phpunit
