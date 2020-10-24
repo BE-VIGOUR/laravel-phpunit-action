@@ -6,6 +6,6 @@ php -d memory_limit=-1 composer.phar install --ignore-platform-reqs
 
 cp .env.testing .env
 
-php artisan key:generate
+php artisan config:clear
 
 php vendor/bin/phpunit
