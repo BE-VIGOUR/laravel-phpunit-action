@@ -2,7 +2,7 @@
 
 #composer install --prefer-dist
 
-php -d memory_limit=-1 composer.phar install --ignore-platform-reqs
+php -d memory_limit=-1 composer.phar install
 
 cp .env.testing .env
 
