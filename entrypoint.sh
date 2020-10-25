@@ -10,4 +10,4 @@ php artisan config:clear
 
 #sh .githooks/pre-push
 
-php vendor/bin/phpunit
+php vendor/bin/grumphp run
