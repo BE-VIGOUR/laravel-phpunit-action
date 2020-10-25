@@ -8,4 +8,4 @@ cp .env.testing .env
 
 php artisan config:clear
 
-php vendor/bin/phpunit
+sh .githooks/pre-push
